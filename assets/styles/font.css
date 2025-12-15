@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Helveticaneuecyr";
+    src: url(../fonts/helveticaneuecyr_thin.otf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Adineueprocyr-bold";
+    src: url(../fonts/adineueprocyr_boldweb.ttf);
+}
+
+@font-face {    
+    font-family: "Adineueprocyr-light";
+    src: url(../fonts/adineueprocyr_lightweb.ttf);
+}

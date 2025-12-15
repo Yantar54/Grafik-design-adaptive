@@ -1,0 +1,190 @@
+.header-main_men{
+    background-image: url(../images/bg3.png);
+
+}
+
+*{
+    text-wrap: wrap;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+.orange-text-u{
+    font-size: inherit;
+    font-family: inherit;
+    color: #EF3833;
+
+}
+
+.header-main__content_men{
+    flex-direction: row;
+    align-items: start;
+    
+
+}
+
+.oz{
+    width: 100%;
+    padding: 60px 0;
+    color: #242935;
+}
+
+.oz__title{
+    font-family: "Adineueprocyr-bold";
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    text-align: center;
+
+
+}
+
+.oz__sub-title{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter";
+    text-align: center;
+    margin: 0 0 50px 0;
+
+
+}
+.grid-oz__el{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+
+.number-oz{
+    font-family: "Adineueprocyr-bold";
+    font-size: 48px;
+    font-weight: 700;
+
+
+}
+
+.word-oz{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.grid-oz{
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(unset); */
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+/* mening */
+
+.mening{
+    width: 100%;
+
+    background-color: white;
+    padding: 110px 0;
+}
+
+.mening__title{
+    font-family: "Adineueprocyr-bold";
+    font-size: 38px;
+    font-weight: 700;
+
+
+
+}
+
+.mening__block-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.mening__slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+
+}
+.orange-btn_onlayn{
+    display: inline;
+    margin: 0 0 0 8px;
+    position: relative;
+    top: -5px;
+
+}   
+
+.mening__images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin: 40px 0 60px;
+}
+
+.mening__image{
+    width: 100%;
+    max-width: 300px;
+}
+
+.blue-button_mening{
+    margin: 0 auto 100px;
+    display: block;
+
+}
+
+/* companies */
+
+.companies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    gap: 30px;
+
+    height: 550px;
+
+
+}
+
+.arrow{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+    .mening__block-title{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+
+    }
+
+    
+}
